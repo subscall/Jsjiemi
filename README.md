@@ -1,5 +1,43 @@
+
+
 # Jsjiemi
 
+
+## ixyj 2024.08.18使用流程
+1.下载整个包文件，或关键文件config.json和Jsjiemi.js。
+
+2.config.json中包含目标脚本文件路径及其他配置。
+
+3.使用默认的config.json配置，不修改。直接将预要解密的jsjiami.com.v6 js文件重命名为target.js。放到config.json和Jsjiemi.js的同一目录。
+
+4.确认安装了node```d:\Downloads\Jsjiemi-master\Jsjiemi-master>node -v
+v18.15.0```
+
+5.Jsjiemi.js目录,按住shift+右键，选择“在此处打开命令行窗口”，在弹出命令行窗口中输入 node Jsjiemi.js执行。
+
+6.解密回显```
+* ----====* Jsjiemi *====----
+* 目标脚本：d:\Downloads\Jsjiemi-master\Jsjiemi-master\target.js
+* 配置文件：d:\Downloads\Jsjiemi-master\Jsjiemi-master\config.json
+* 输出格式：d:\Downloads\Jsjiemi-master\Jsjiemi-master\JsjiemiResultN.js
+* 模拟模块：vm [不安全]
+【警告】
+[请按任
+* 净化代码 [==================================================]
+* 解除全局加密 [==================================================]
+* 解除代码块加密 [==================================================] 100.0%
+* 清理死代码（花指令） [==================================================] 100.0%
+* 解除环境限制 [==================================================]
+* 提升代码可读性 [==================================================]
+* 格式化代码 [==================================================] 100.0%
+* 解密完成！
+· 耗时：1662ms
+d:\Downloads\Jsjiemi-master\Jsjiemi-master>```
+
+7.解密完成后，在同一目录下生成JsjiemiResult[xxx].js的文件。
+
+>
+>
 > [!IMPORTANT]
 > 本项目不再维护，出于以下多方面的考虑：
 >
